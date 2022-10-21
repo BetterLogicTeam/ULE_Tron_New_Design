@@ -1,0 +1,68 @@
+.about_main_bg{
+    padding: 120px 0px;
+
+    background-image: url("../assets/bread1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    
+}
+
+.about_main_bg::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   
+  background-image: url("../assets/bread1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.page-title{
+    padding: 100px 0px 40px 0px;
+}
+
+.title{
+    font-size: 42px;
+    line-height: 50px;
+    /* position: relative; */
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: 700;
+
+}
+
+
+.page_links{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+.pages_links_a{
+    color: #ddd;
+    font-size: 17px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width:767px){
+    .title{
+        padding:50px 0px 0px 0px;
+        font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 0px;
+    }
+}

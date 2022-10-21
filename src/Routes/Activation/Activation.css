@@ -1,0 +1,76 @@
+.modal-content10 {
+    /* background-color: #720756; */
+    background-color: #190562 !important;
+    margin: auto;
+    padding: 15px 50px;
+    box-shadow: inset 0px 0px 7px 3px hsl(0deg 0% 100% / 40%) !important;
+    border: 1px solid #edededc7;
+    width: 100%;
+    border-radius: 6px;
+    /* transform: translate(0px, 50%); */
+}
+
+.Model_text_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:800px) {
+    .Model_text_inner {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+    .modal-content10 {
+        /* background-color: #720756; */
+        background-color: #190562 !important;
+        margin: auto;
+        padding: 15px 15px;
+        box-shadow: inset 0px 0px 7px 3px hsl(0deg 0% 100% / 40%) !important;
+        border: 1px solid #edededc7;
+        width: 220%;
+        border-radius: 6px;
+        /* transform: translate(0px, 50%); */
+    }
+    .numbtn button {
+        border: 1px solid #d220c9db;
+        background: #040354;
+        color: #fff !important;
+        padding: 5px 20px 5px 20px;
+        /* margin: 5px; */
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 0.5rem;
+    }
+    .numbtn{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .input_width{
+        width: 100% !important;
+        margin-top: 0.5rem;
+    }
+    .modal-title span{
+        font-size: 1rem !important;
+        margin-top: 2rem !important;
+    }
+    .net_box {
+        background: #040354;
+        /* background: linear-gradient(90deg, rgba(131,200,168,1) 0%, rgba(46,117,86,1) 8%, rgba(47,118,87,1) 27%, rgba(53,124,93,1) 47%, rgba(46,117,86,1) 89%, rgba(131,200,168,1) 100%, rgba(46,117,86,1) 1000%); */
+        webkit-box-shadow: 4px 2px 6px rgb(72 100 125 / 30%), inset -2px -2px 6px rgb(72 100 125 / 10%);
+        box-shadow: 4px 2px 6px rgb(0 0 0 / 51%), inset -2px -2px 6px rgb(0 0 0 / 34%);
+        padding: 7px;
+        height: 95px;
+        border-radius: 10px;
+        border: 1px solid #d322c6cc;
+    }
+    .margin_top_here{
+        margin-top: 5rem !important ;
+    }
+}
+
+.margin_top_here{
+    margin-top: 10rem ;
+}

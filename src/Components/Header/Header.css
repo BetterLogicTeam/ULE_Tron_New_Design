@@ -1,0 +1,136 @@
+.home img{
+    width: 200px;
+}
+
+.nev{
+    color: white !important;
+    width: 100%;
+    /* position:  absolute !important; */
+    top: 10%;
+    z-index: 100 !important;
+    opacity: 10 !important;
+    /* background-color: transparent; */
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: transparent !important;
+}
+.nav_bar{
+    background-color: transparent !important;
+}
+.alna{
+    margin-left: 35% !important;
+
+}
+.alna{
+    margin-left: 4rem;
+}
+
+.login_bttn{
+    padding: 10px 22px !important;
+    background-color: rgb(252,0,119) !important;
+    border: none !important;
+    border-radius: 4px !important;
+}
+
+.hxn{
+    margin-right: 15px;
+    text-decoration: none;
+}
+.Styelnone{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.top_aa{
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+    .alna{
+        text-align: left;
+        margin-left: 7% !important;
+        padding: 0;
+    }
+
+    .emn{
+        text-align: left;
+        margin-left: 7% !important;
+        padding: 0;
+    }
+   
+}
+
+@media (min-width:800px) and (max-width:1024px) {
+
+    .alna{
+        margin-left: .5rem;
+    }
+    
+    .hxn{
+        margin-right: 0px;
+    }
+
+    .wallet{
+        margin-right: 2px !important;
+        font-size: 16px !important;
+    }
+}
+
+.wallet{
+    color: chocolate !important;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+
+
+@media (min-width:767px) and (max-width:800px){
+    .header_ul{
+        display: flex !important;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+.pop-up-add {
+    margin-left: 59px !important;
+}
+#model-add {
+    margin-left: -2% !important;
+    top: 62%;
+    left: 90px !important;
+}
+.navbar-collapse {
+    background: #0A0653;
+    float: left;
+    width: 90%;
+}
+}
+
+@media screen and (max-width:800px) {
+    
+    .alna{
+        display: flex;
+        align-items: center;
+    }
+
+    .alna.hxn{
+border-bottom: 1px solid #fff;
+    }
+
+    .emn{
+        display: flex;
+        align-items: center;
+    }
+    .slider_responsive {
+        margin-left: 8rem !important;
+        width: 373px!important;
+    }   
+    .home img{
+        width: 141px !important;
+    }
+}

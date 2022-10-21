@@ -1,0 +1,118 @@
+
+
+@media only screen and (max-width: 1000px) {
+    .MuiDialog-paperWidthSm {
+        max-width: 600px;
+        width: 90% !important;
+    }
+    .login_main{
+      /* height: auto !important; */
+    }
+  
+  }
+
+  .login_main{
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(217deg, #fc0077, #180366 53%, #520199 100%, #fc0077 1000%);
+    padding-top: 40px;
+    padding-bottom: 140px;
+    height: 100vh;
+  }
+  .login_card{
+    position: relative;
+    background: rgb(114 7 86);
+    width: 100%;
+    box-shadow: inset 0px 0px 7px 3px hsl(0deg 0% 100% / 40%) !important;
+    margin-top: 7rem;
+    border: 1px solid hsl(0deg 0% 100% / 62%);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 1rem 2rem 1rem;
+    text-align: center;
+    min-height: 315px;
+  }
+
+  .logo_link{
+    color: #fff !important;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+  
+    text-decoration: none ;
+  }
+
+  .logo_link:hover{
+    text-decoration: none;
+    color: white;
+   
+  }
+
+  .login_head{
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+  }
+
+  .tron_heading{
+    color: red !important;
+    font-size: 14px !important;
+  }
+
+  .login_btn{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s linear;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    border: 1px solid hsla(0, 0%, 100%, .49019607843137253);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    background-color: #95004f;
+    color: white !important;
+    text-align: center !important;
+  }
+
+
+
+
+
+
+                                                    /* css for modal is here  */
+.modal_bg{
+    background-color: #95004f;
+}
+
+.btn_hover:hover{
+    color: grey !important;
+}
+
+
+.MuiPaper-root {
+  position: absolute;
+  /* top: 12%; */
+  background-color: #6d0144 !important  ;
+  border-radius: 10px;
+  /* width: 29%; */
+  /* left: 37%; */
+  /* height: 502px; */
+  overflow: auto;
+  animation-duration: 0.4s;
+}
+
+.close25 {
+  color: #fff;
+  float: right;
+  font-size: 23px;
+  font-weight: bold;
+  position: relative;
+  top: -11px;
+  right: -10px;
+  background: #17023f;
+  line-height: 0;
+  padding: 13px 7px;
+  border-radius: 16px;
+}

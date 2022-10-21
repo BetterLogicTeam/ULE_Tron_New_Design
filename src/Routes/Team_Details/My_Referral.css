@@ -1,0 +1,32 @@
+
+
+@media only screen and (max-width: 1000px) {
+    #referral-tool{
+        margin-top: 9rem!important;
+    }
+
+    .asp{
+        margin-left: -14% !important;
+
+    }
+    }
+
+    .tree_icon {
+        display: flex;
+        justify-content: space-evenly;
+        background: #36066c;
+        border: 1px solid;
+        margin: 30px;
+        padding: 13px;
+        border-radius: 6px;
+        font-size: 18px;
+    }
+    .form-wrapper {
+        margin: 30px auto;
+        overflow: hidden;
+        padding: 7px 8px 13px;
+        max-width: 530px;
+        background-color: #36066c;
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }

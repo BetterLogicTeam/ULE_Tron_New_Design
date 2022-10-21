@@ -1,0 +1,107 @@
+/* @media (min-width:800px) and (max-width:1100px) {
+    
+
+    .how-it-works {
+        color: #fff;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        min-width: 927px !important;
+        BACKGROUND: #20163900;
+    }
+}
+
+@media screen and (max-width:1000px) {
+   .how-it-works{
+    text-align: left;
+   }
+
+   
+
+} */
+
+
+
+
+/* @media (min-width:1100px) and (max-width:1440px) {
+    
+
+    .how-it-workse {
+        color: #fff;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        min-width: 1027px !important;
+        BACKGROUND: #20163900;
+    }
+} */
+
+
+/* @media (min-width:1441px) and (max-width:1660px) {
+    
+
+    .how-it-workse {
+        color: #fff;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        min-width: 1027px !important;
+        BACKGROUND: #20163900;
+    }
+} */
+
+.how_too_pplay{
+    font-family: 'Lato', sans-serif !important;
+}
+
+.down-btn a{
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width:767px){
+    .Start_heading{
+        font-size: 30px !important;
+    line-height: 40px !important;
+    color: #fff !important;
+    text-transform: capitalize !important;
+    }
+
+    .play_para{
+        width: auto !important;
+        margin: 0px auto 15px;
+        color: #ddd;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 26px;
+    }
+    .paly_sub_heading{
+        font-size: 32px !important;
+        line-height: 40px !important;
+        font-family: 'Nunito', sans-serif !important;
+        color: #fff !important;
+        margin-top: 0px !important;
+        font-weight: 700 !important;
+        margin-bottom: 15px !important;
+    }
+    .Para_Responsive{
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 26px;
+        color: #ddd;
+        margin-bottom: 15px;
+    }
+    .about-calculater{
+        margin-right: 0px !important;
+    }
+
+    .play_h2{
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+    .responsive_mar{
+        margin-top: 36% !important;
+    }
+}

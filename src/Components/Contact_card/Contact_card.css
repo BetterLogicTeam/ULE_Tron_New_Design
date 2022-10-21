@@ -1,0 +1,53 @@
+.contact_card_bg{
+    background-color: #020134;
+    padding: 30px 0px;
+}
+
+.contact_card{
+    padding: 50px;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    border: 1px solid #150550;
+    margin-top: 50px;
+
+}
+
+.Card_heading{
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card_para{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.join_btn{
+    border: 1px solid #FC0077;
+    background: #FC0077;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+    border-radius: 3px;
+}
+
+.join_btn:hover{
+    background: transparent;
+    border: 1px solid #FC0077;
+    color: #FC0077;
+    transition: 0.4s;
+}

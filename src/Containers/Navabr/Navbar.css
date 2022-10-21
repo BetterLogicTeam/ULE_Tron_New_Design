@@ -1,0 +1,101 @@
+.expand-nav{
+    background-color: #370282;
+    color: white;
+    position: absolute;
+    padding-top: 1rem;
+    justify-content: center;
+    width: fit-content;
+    z-index: 99;
+}
+.expand-nav-sm{
+    /* background-color: black; */
+    color: white;
+    position: relative;
+    
+    padding: 0.7rem 2.1rem ;
+    padding-top: 1rem;
+    justify-content: center;
+    width: fit-content;
+}
+.expand-nav-sm > a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0rem;
+}
+.expand-nav > a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0.7rem;
+}
+.expand-nav > a:hover{
+    color: white;
+    background-color: rgb(172, 172, 172);
+}
+.btn1{
+    color:white;
+    border: 0;
+    padding: 13px 25px;
+    background-color: transparent;
+}
+.btn1:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.navbar-collapse{    
+    border-bottom: 1px solid rgb(255 255 255 / 15%);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)
+}
+.brand-bar{    
+    border-bottom: 1px solid rgb(255 255 255 / 15%);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)
+}
+.navbar-brand{    
+    border-right: 1px solid rgb(255 255 255 / 15%);
+}
+
+@media only screen and (max-width: 1000px) {
+   
+.nav-display{
+    display: none !important;
+
+
+}
+.border_bottom    {
+    border-bottom: 0;
+}
+.topbar-logo-header{
+    display: none !important;
+}
+.dashboard_home{
+    margin-top: 6rem !important;
+}
+
+}
+.dropdown-menu {
+    background-color: #190562 !important;
+}
+.navbar_link{
+    width: 15rem !important;
+    border: 1px solid red;
+}
+
+
+.Id_Profile{
+    display: flex !important;
+    
+    justify-content: space-between !important;
+}
+
+@media (min-width: 1025px){
+.ul-ip {
+    width: 150%;
+}
+}
+
+@media (max-width: 768px){
+.nav_top {
+    top: 55px !important;
+    display: inline-block;
+}
+}

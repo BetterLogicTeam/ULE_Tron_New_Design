@@ -1,0 +1,41 @@
+.Submitt_btn{
+    background: #FC0077;
+    border: 1px solid #FC0077;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 13px 40px;
+    transition: 0.4s;
+    border-radius: 3px;
+    width: auto;
+    float: left;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Submitt_btn:hover{
+    
+    background: transparent;
+    border: 1px solid #FC0077;
+    color: #FC0077;
+    transition: 0.4s;
+}
+
+.contact_form_bg{
+    background-color: #020134 ;
+    padding: 30px 0px;
+}
+
+.breadcrumb-title {
+    font-size: 20px;
+    border-right: none !important;
+}
+.navbar-brand {
+    border-right: none !important;
+}
+.navbar-collapse {
+    border-bottom:none !important;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}

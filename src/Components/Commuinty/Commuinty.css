@@ -1,0 +1,112 @@
+.main_heading_community{
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.community_para{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card_slide{
+    display: flex;
+    justify-content: space-between;
+    overflow-x:scroll ;
+    width: 100% !important;
+  }
+
+  .card_slide::-webkit-scrollbar {
+    display:none;
+  }
+
+
+
+
+
+  @media only screen and (max-width:767px){
+    .Community_heading{
+      font-size: 24px !important;
+    line-height: 32px !important;
+    font-family: 'Nunito', sans-serif !important;
+    color: #fff !important;
+    margin-top: 0px !important;
+    font-weight: 700 !important;
+    margin-bottom: 15px !important;
+    }
+
+    .card_slide{
+      margin-top: 20px !important;
+    }
+    .slider_responsive{
+      margin-left: 8rem !important;
+      width: 371px!important;
+    }
+  }
+
+
+  .testimonial-carousel.owl-carousel .owl-nav div {
+    background: #150550;
+    border: 1px solid #150550;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 40px;
+}
